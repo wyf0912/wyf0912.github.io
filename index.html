@@ -111,9 +111,9 @@
               <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>Publications</h2>
-                <p style="line-height: 1.5;">Topics: <button onclick="show_all(); change_color(this)">All Topics</button> / <button onclick="select_category('cp'); change_color(this)">Computational Photography & Generative models</button> / <button onclick="select_category('codec'); change_color(this)">Compression</button> / <button onclick="select_category('robust'); change_color(this)">Robustness & Security</button>
+                <p style="line-height: 1.5;">Topics: <button onclick="show_all(); change_color(this)">All Topics</button> / <button onclick="select_category('cp'); change_color(this)">Computational Photography & Generative models</button> / <button onclick="select_category('codec'); change_color(this)">Compression</button> / <button onclick="select_category('robust'); change_color(this)">Robustness & Security</button> / <button onclick="select_category('3d'); change_color(this)">3D vision</button>
                 </p>
-                <p>(* represents the equal contribution.)</p>
+                <p><strong>(* represents the equal contribution.)</strong></p>
                 <!-- <p>
                   I'm interested in computer vision, deep learning, generative AI, and image processing. Most of my research is about inferring the physical world (shape, motion, color, light, etc) from images, usually with radiance fields. Representative papers are <span class="highlight">highlighted</span>.
                 </p> -->
@@ -147,7 +147,7 @@
       </tr> -->
 
     <!-- context3d'24 -->
-    <tr class="paper codec select">
+    <tr class="paper codec 3d select">
       <td style="padding:20px;width:30%;vertical-align:middle">
         <div>
           <img src='images/ContextGS.jpg' width=100%>
@@ -177,7 +177,7 @@
 
 
     <!-- 3dgs dark'24 -->
-    <tr class="paper select cp">
+    <tr class="paper select cp 3d">
       <td style="padding:20px;width:30%;vertical-align:middle">
         <div>
           <img src='images/3DGSDark.png' width=100%>
@@ -794,7 +794,7 @@
         <img src='images/icassp.png' width=100%>
       </div>
     </td>
-    <td style="padding:0px;width:70%;vertical-align:middle">
+    <td style="padding:20px;width:70%;vertical-align:middle">
       <span class="tag">ICASSP'20</span> &nbsp;
       <a>
         <span class="papertitle">Heterogeneous Domain Generalization via Domain Mixup</span>
